@@ -57,6 +57,13 @@ function generateTheory() {
     var action = Math.floor(Math.random() * (actions.length));
     //reason generation
     var reason = Math.floor(Math.random() * (reasons.length));
+    //storing second noun in variable for while loop
+    var noun2 = allNouns[nounTwo];
+    //Loop to prevent the same noun being used twice
+    while(noun == noun2) {
+        var nounTwo = Math.floor(Math.random() * (allNouns.length));
+        var noun2 = allNouns[nounTwo];
+    }
 
     //Concatenation of String
     var theory = noun + " " + linkingVerb + " " + actions[action] + " " + allNouns[nounTwo] + " " + reasons[reason]
