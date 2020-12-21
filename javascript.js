@@ -4,6 +4,10 @@ var pluralNouns = [
     'Interdimensional Pedophilic Emotional Vampires',
     'The Global-Elite',
     'Lizard People',
+    'Freemasons',
+    'The Skull & Bones',
+    'Werewolves',
+    'The KKK',
 ]
 
 var singularNouns = [
@@ -16,6 +20,10 @@ var singularNouns = [
     'Fox News',
     'The Artist Formerly Known as Prince',
     'the ghost of Richard Nixon',
+    'The Lochness Monster',
+    'Alex Jones',
+    'Alex Trebek',
+    'Davey Jones',
 ]
 
 var allNouns = pluralNouns.concat(singularNouns);
@@ -25,16 +33,28 @@ var actions = [
     'in cahoots with',
     'implanting RFID Tracking Chips into',
     'building more 5G towers for',
+    'putting fluoride in the water to brainwash',
+    'drinking the adrenochrome of',
+    'pilfering the grave of',
+    'resurrecting the corpse of',
+    'corrupting the minds of the youth with',
+    'signing contracts in blood with',
 ]
 
 var reasons = [
     'to bring about a New World Order.',
     'to return america to the gold standard.',
     'to harvest adrenochrome from the World\'s children',
-    'for Satan',
+    'to please Satan',
     'to please Moloch',
     'just because it gets them off',
     'just to feel ALIVE',
+    'to turn the frogs gay',
+    'to harbor mass hysteria for unlawful gains',
+    'to dethrone god and take his place',
+    'in order to seize the means of production',
+    'to finally thwart the Antifa movement',
+    'to fortify big pharma',
 ]
 
 // Generation Function
