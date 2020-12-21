@@ -8,20 +8,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
 </head>
 <body>
+
+    <div class="row">
+        <div id="head" class="col">
+            <h1>Conspiracy Theory Generator</h1>
+        </div>
+    </div>
+
     <div id="main-container" class="container">
 
         <div class="row">
-            <div id="head" class="col">
-                <h1>Conspiracy Theory Generator</h1>
-            </div>
-        </div>
 
+            <div id="content-container" class="col">
+                <div id="theory-container">
+                    <!-- This is where the genius will be displayed -->
+                </div>
 
-        <div class="row">
-            <div id="theory-container">
-                <!-- This is where the genius will be displayed -->
+                <div class="button-container">
+                    <button id="button" onclick="generateTheory()">Generate a Theory!</button>
+                </div>
+
             </div>
-        <button onclick="generateTheory()">Generate a Theory!</button>
+
         </div>
 
     </div>
