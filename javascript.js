@@ -44,7 +44,7 @@ var actions = [
 
 var reasons = [
     'to bring about a New World Order.',
-    'to return america to the gold standard.',
+    'in order to return America to the gold standard.',
     'to harvest adrenochrome from the World\'s children.',
     'to please Satan.',
     'to please Moloch.',
@@ -87,7 +87,7 @@ function generateTheory() {
     }
 
     //Concatenation of String
-    var theory = "<span class='theory'> " + noun + " " + linkingVerb + " " + actions[action] + " " + allNouns[nounTwo] + " " + reasons[reason] + " </span>"
+    var theory = "<span class='theory'> " + noun + " " + linkingVerb + " " + actions[action] + " " + allNouns[nounTwo] + " " + reasons[reason] + "</span>"
 
     //Injection into HTML
     document.getElementById('theory-container').innerHTML = theory;
