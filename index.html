@@ -7,8 +7,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
 
+    <meta property="og:url"                content="tbd" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="Conspiracy Theory Generator" />
+    <meta property="og:description"        content="Create your own conspiracy!" />
+    <meta property="og:image"              content="tbd" />
+
 </head>
 <body onLoad="generateTheory();">
+    <!-- Facebook Share -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="2BNuStbs"></script>
 
     <!-- Main Container -->
     <div id="main-container" class="container">
@@ -22,7 +31,7 @@
             </div>
         </div>
 
-        <!-- Center Row -->
+        <!-- Center Row --> 
         <div class="row">
             <div class="col">
                 <div id="theory-container">
@@ -38,22 +47,12 @@
                 </div>
         </div>
 
-        <!-- Bottom Button Row-->
+        <!-- Social Media Buttons -->
         <div class="row">
                 <div class="col">
-                    <button id="button" onclick="generateTheory()">Generate a Theory!</button>
-                </div>
-
-                <div class="col">
-                    <button id="button" onclick="generateTheory()">Generate a Theory!</button>
-                </div>
-
-                <div class="col">
-                    <button id="button" onclick="generateTheory()">Generate a Theory!</button>
-                </div>
-
-                <div class="col">
-                    <button id="button" onclick="generateTheory()">Generate a Theory!</button>
+                    <div id="share-container">
+                        <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+                    </div>
                 </div>
         </div>
 
